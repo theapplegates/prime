@@ -85,8 +85,24 @@ module.exports = {
       ],
     },
     extend: {
+      boxShadow: {
+        thick: "0px 7px 32px rgb(0 0 0 / 35%);",
+      },
       colors: {
-        black:"#222222",
+        // Gray
+        "primary": "#101010",
+  "secondary": "#1a1a1a",
+  "tertiary": "#262626",
+        // Purple
+        //primary:"#080118",
+        //secondary:"#140d23",
+        //tertiary:"#1d1333",
+        white:"#ececec",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+        "5xl": "3rem",
+        "6xl": "5rem",
       },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
