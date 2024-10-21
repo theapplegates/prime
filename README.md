@@ -1,8 +1,10 @@
-# Astro & Tailwind CSS Starter Kit
+![image](https://lexingtonthemes.com/_astro/primapersona.Batqd7JQ_ZB9k9u.avif)
+# Prima Persona
 
 ## Template Integrations
 - Tailwind CSS v4 (Alpha) - Currently using the alpha version; will switch to v4 upon official release.
 - Astro SEO - Powered by [@astrolib/seo](https://github.com/onwidget/astrolib/tree/main/packages/seo)
+- Astro Sitemap - https://docs.astro.build/en/guides/integrations-guide/sitemap/
 
 ## Template Structure
 
