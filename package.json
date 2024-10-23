@@ -11,9 +11,9 @@
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.2.1",
-    "@tailwindcss/vite": "^0.0.0-development.1",
+    "@tailwindcss/vite": "^4.0.0-alpha.29",
     "astro": "^4.16.6",
-    "tailwindcss": "^4.0.0-alpha.28"
+    "tailwindcss": "^4.0.0-alpha.29"
   },
   "dependencies": {
     "@astrolib/seo": "^1.0.0-beta.8"
