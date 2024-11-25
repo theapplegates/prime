@@ -59,6 +59,5 @@ Unecessary classes were removed from the code, and the classes were refactored t
 On this case, only `border-radius-XXX` classes were added.
 
 - Added Image component from Astro
-The Astro Image component is coming back to the themes.
-
+The Astro Image component is coming back to the themes
 -----
