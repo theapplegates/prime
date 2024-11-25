@@ -1,4 +1,4 @@
-![image](https://lexingtonthemes.com/_astro/primapersona.Batqd7JQ_ZB9k9u.avif)
+![image](primapersona.png)
 # Prima Persona
 
 ## Template Integrations
