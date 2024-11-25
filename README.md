@@ -1,8 +1,7 @@
-![image](primapersona.png)
 # Prima Persona
 
 ## Template Integrations
-- Tailwind CSS v4 (Alpha) - Currently using the alpha version; will switch to v4 upon official release.
+- Tailwind CSS v4 Beta - Currently using the Beta version. Update when needed.
 - Astro SEO - Powered by [@astrolib/seo](https://github.com/onwidget/astrolib/tree/main/packages/seo)
 - Astro Sitemap - https://docs.astro.build/en/guides/integrations-guide/sitemap/
 
@@ -43,21 +42,36 @@ Learn more - Explore more through Astro's official [documentation](https://docs.
 Updated on 21st October 2024
 
 ## This update includes:
-- Added Tailwind CSS v4 (Alpha)
+- Full redesign of the template
+- Added Vanilla Js animations.
+- Added Tailwind CSS v4 Beta
 
-On this version, Tailwind CSS is now using the alpha version from Tailwind CSS V4, this means that there's no `tailwind.config.mjs` file anymore. From now on, all style will be added on the `css` file. You can find the styles on the `src/styles/global.css` file.
+On this version, Tailwind CSS is now beta the alpha version from Tailwind CSS V4, this means that there's no `tailwind.config.mjs` file anymore. From now on, all style will be added on the `css` file. You can find the styles on the `src/styles/global.css` file.
 
 
 - Astro SEO by @astrolib/seo
-
 This update includes the integration of the Astro SEO package by @astrolib/seo, is an integration that makes managing your SEO easier in Astro projects. It is fully based on the excellent Next SEO library
-
-- Refactored classes
-
-Unecessary classes were removed from the code, and the classes were refactored to make the code more readable and maintainable. We move to use a Tailwind CSS color class, for example `-zinc-950` instead of `-primary-950`. The only custom classes are added on the `src/styles/global.css` file.
-
-On this case, only `border-radius-XXX` classes were added.
 
 - Added Image component from Astro
 The Astro Image component is coming back to the themes
+
+- Reusable components
+This template now includes reusable components, such as the `Text` component:
+- Text Component
+A flexible and reusable typography component for dynamic text elements. It allows you to:
+
+- Dynamically set the HTML tag (e.g., `h1`, `p`, `span`) via the `tag` prop.
+- Apply predefined text styling variants (e.g., `displayXL`, `textMD`) for consistency across your project.
+- Add custom classes for additional styling with the `class` prop.
+
+Example usage:
+```astro
+<Text tag="h1" variant="displayXL" class="text-center">
+  Welcome to the new version!
+</Text>
+```
 -----
+
+### [Support](https://lexingtonthemes.com/legal/support/)
+### [Documentation](https://lexingtonthemes.com/documentation/quick-start/)
+### [Get your bundle](https://lexingtonthemes.com)
