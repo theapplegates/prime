@@ -43,7 +43,7 @@ Updated on 21st October 2024
 
 ## This update includes:
 - Full redesign of the template
-- Added Vanilla Js animations.
+- Added Vanilla JS animations.
 - Added Tailwind CSS v4 Beta
 
 On this version, Tailwind CSS is now beta the alpha version from Tailwind CSS V4, this means that there's no `tailwind.config.mjs` file anymore. From now on, all style will be added on the `css` file. You can find the styles on the `src/styles/global.css` file.
