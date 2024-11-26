@@ -1,7 +1,7 @@
 # Prima Persona
 
 ## Template Integrations
-- Tailwind CSS v4 Beta - Currently using the Beta version. Update when needed.
+- Tailwind CSS v4 Beta 
 - Astro SEO - Powered by [@astrolib/seo](https://github.com/onwidget/astrolib/tree/main/packages/seo)
 - Astro Sitemap - https://docs.astro.build/en/guides/integrations-guide/sitemap/
 
