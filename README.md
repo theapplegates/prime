@@ -39,12 +39,10 @@ All commands are run from the root of the project, from a terminal:
 Learn more - Explore more through Astro's official [documentation](https://docs.astro.build).
 
 ------
-Updated on 21st October 2024
+Updated on 18th January 2024
 
 ## This update includes:
 - Full redesign of the template
-- Added Vanilla JS animations.
-- Added Tailwind CSS v4 Beta
 
 On this version, Tailwind CSS is now beta the alpha version from Tailwind CSS V4, this means that there's no `tailwind.config.mjs` file anymore. From now on, all style will be added on the `css` file. You can find the styles on the `src/styles/global.css` file.
 
@@ -75,3 +73,5 @@ Example usage:
 ### [Support](https://lexingtonthemes.com/legal/support/)
 ### [Documentation](https://lexingtonthemes.com/documentation/quick-start/)
 ### [Get your bundle](https://lexingtonthemes.com)
+
+

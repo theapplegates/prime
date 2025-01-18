@@ -1,22 +1,18 @@
 ---
+// Fundation
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import Hero from "@/components/landing/Hero.astro";
-import Navigation from "@/components/landing/Navigation.astro";
-import ImageCarousel from "@/components/landing/ImageCarousel.astro";
+// Sections
+import Intro from "@/components/landing/Intro.astro";
+import Projects from "@/components/landing/Projects.astro";
 import Work from "@/components/landing/Work.astro";
-import Products from "@/components/landing/Products.astro";
-import Talks from "@/components/landing/Talks.astro";
-import About from "@/components/landing/About.astro";
-import Footer from "@/components/landing/footer.astro";
+import Education from "@/components/landing/Education.astro";
+import Speaking from "@/components/landing/Speaking.astro";
 ---
 
 <BaseLayout>
-  <Hero />
-  <Navigation />
-  <ImageCarousel />
+  <Intro />
+  <Projects />
   <Work />
-  <Products />
-  <Talks />
-  <About />
-  <Footer />
+  <Education />
+  <Speaking />
 </BaseLayout>
