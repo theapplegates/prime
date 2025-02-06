@@ -5,6 +5,6 @@ export default defineConfig({
    vite: {
     plugins: [tailwindcss()],
   },
-   site: 'https://yourdomain.com',
+   site: 'https://prime.paulapplegate.com',
   integrations: [sitemap()]
 });
